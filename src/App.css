@@ -1,0 +1,171 @@
+@import url("assets/font/Kunlasatri/stylesheet.css");
+
+
+body{
+  font-family: Kunlasatri;
+  font-size: 20px;
+  font-style: #584d48;
+
+  color: #584d48;
+
+  background-image: url("./assets/image/Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: inherit;
+  width: 100%;
+  min-height: 100vh;
+
+  margin: 0px;
+}
+
+
+.container .page-header form {
+  font-family: Kunlasatri;
+
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*Navbar Styles*/
+
+.navbar {
+  background-color: #FFFA90;
+  min-height: 1.25rem;
+  width: 100%;
+  position: fixed;
+  z-index: 30;
+}
+.navbar-item, .navbar-link {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  font-weight:bolder;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #4e803e;
+  display: flex;
+}
+
+.link {
+  color: #4e803e;
+  display: flex;
+
+}
+
+.router_child{
+  /*position: relative;*/
+  height: 100%;
+  /*height:100vh*/
+}
+.navbar-item img {
+  max-height: 2rem;
+}
+a.navbar-item:hover, a.navbar-item.is-active,.link:hover, .navbar-link:hover, .navbar-link.is-active {
+  /*background-color: #fff7c9;*/
+  color: #e4cd2d;
+}
+
+.header_style{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+/*button*/
+
+.default_button {
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #23d160;
+  color: #fdfefd;
+  border: 1px solid transparent;
+  box-shadow: none;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: Kunlasatri;
+}
+
+
+
+.default_button:hover {
+
+
+  background-color: transparent;
+  color: #23d160;
+  border: 1px solid #23d160;
+}
+
+.cancle_button {
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #d13a6b;
+  font-weight: bolder;
+  color: #fdfefd;
+  border: 1px solid transparent;
+  box-shadow: none;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 25px;
+  font-family: Kunlasatri;
+}
+
+
+
+.cancle_button:hover {
+
+
+  background-color: transparent;
+  color: #d13a6b;
+  border: 1px solid #d13a6b;
+}
+
+
+/*sweetalert*/
+.swal-text {
+  font-size: 30px;
+  padding: 17px;
+  text-align: center;
+  color: #584d48;
+}
+
+.swal-button {
+
+  font-family: Kunlasatri;
+  font-size: 20px;
+
+}
